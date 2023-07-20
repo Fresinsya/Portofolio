@@ -2,22 +2,23 @@ import React from 'react'
 import './Navbar.css'
 import 'react-icons/gi'
 import { GiClover } from 'react-icons/gi'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <main className='navbar'>
+    <main className='navbar' class="mb-5">
       <header>
         <nav role='navigation'>
           <ul>
-            <li><a href="#">Home</a></li>
-            {/* <li><a href="#"></a></li> */}
-            <li><a href="#">Education</a></li>
+            <li><Link href="/">Home</Link></li>
+            {/* <li><Link href="#"></Link></li> */}
+            <li><Link href="/education">Education</Link></li>
             <li id="heart-trigger" class="heart heart-trigger">
               <GiClover />
             </li>
-            <li><a href="#">Portofolio</a></li>
-            {/* <li><a href="#"></a></li> */}
-            <li><a href="#">Contact</a></li>
+            <li><Link href="/portofolio">Portofolio</Link></li>
+            {/* <li><Link href="#"></Link></li> */}
+            <li><Link href="/contact">Contact</Link></li>
           </ul>
         </nav>
       </header>
