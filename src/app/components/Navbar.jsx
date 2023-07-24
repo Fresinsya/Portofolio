@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <main className='navbar' class="mb-5">
+    <main className='navbar'>
       <header>
         <nav role='navigation'>
           <ul>
