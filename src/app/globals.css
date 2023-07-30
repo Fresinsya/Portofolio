@@ -9,6 +9,7 @@
     max-width: 100vw;
     overflow-x: hidden;
     background-color: #EF798A;
+    /* background-color: #FCBAAD; */
   }
   
   /* body {
@@ -26,9 +27,9 @@
     text-decoration: none;
   }
   
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     html {
-      /* color-scheme: dark; */
+      color-scheme: dark;
     }
-  }
+  } */
   

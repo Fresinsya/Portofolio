@@ -11,7 +11,7 @@
   height: 100%;
   justify-content: center;
   align-items: center;
-  font-family: 'Cormorant Garamond', cursive;
+  font-family: 'Happy Monkey', cursive;
   font-style: italic;
   font-size: 40px;
   display: flex;
@@ -20,6 +20,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+  /* background-color: #FCBAAD; */
 }
 .kertas{
   display: flex;
@@ -33,7 +34,8 @@
   z-index: 2;
 }
 .btn {
-  font: 900 0.85rem 'arial-black',helvetica,sans-serif;
+  font: 300 20px 'Happy Monkey', cursive;
+  font-style: bold;
   text-transform: capitalize;
   border: none;
   background-color: transparent;

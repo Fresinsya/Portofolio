@@ -13,7 +13,7 @@ const Navbar = () => {
             <li><Link href="/">Home</Link></li>
             {/* <li><Link href="#"></Link></li> */}
             <li><Link href="/education">Education</Link></li>
-            <li id="heart-trigger" class="heart heart-trigger">
+            <li id="heart-trigger" style={{color: "white"}} className="heart heart-trigger">
               <GiClover />
             </li>
             <li><Link href="/portofolio">Portofolio</Link></li>
