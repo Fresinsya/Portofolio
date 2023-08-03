@@ -145,27 +145,20 @@ export default function page() {
 
   return (
     <>
-      <div className="slides">
-        <button onClick={() => dispatch({ type: "PREV" })}>‹</button>
+      <h1>Portofolio</h1>
+        <div className="slides">
+          <button onClick={() => dispatch({ type: "PREV" })}>‹</button>
 
-        {[...slides, ...slides, ...slides].map((slide, i) => {
-          let offset = slides.length + (state.slideIndex - i);
-          return <Slide slide={slide} offset={offset} key={i} />;
-        })}
-        <button onClick={() => dispatch({ type: "NEXT" })}>›</button>
-      </div>
-
-      <Link
-        href="https://youtu.be/5ptXXNjuUfg"
-        target="_blank"
-        data-keyframers-credit
-        style={{ color: "#FFF" }}
-      >
-        Tes
-      </Link>
+          {[...slides, ...slides, ...slides].map((slide, i) => {
+            let offset = slides.length + (state.slideIndex - i);
+            return <Slide slide={slide} offset={offset} key={i} />;
+          })}
+          <button onClick={() => dispatch({ type: "NEXT" })}>›</button>
+        </div>
       <Head>
         <script src="https://codepen.io/shshaw/pen/QmZYMG.js"></script>
       </Head>
+      
     </>
   );
 }
